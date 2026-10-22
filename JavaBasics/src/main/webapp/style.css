@@ -1,0 +1,118 @@
+/* Βασική γραμματοσειρά και χρώμα φόντου */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 20px;
+
+}
+
+/* Τίτλοι */
+h2, h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Στυλ για τους Πίνακες */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Στυλ για Links και Κουμπιά */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+input[type="submit"], input[type="button"], button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Φόρμες */
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* Ρυθμίσεις για το Λογότυπο */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: auto;
+}
+.logo2 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 335px;
+    height: auto;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #6e6e6e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.back-btn:hover {
+    background-color: #95a5a6;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+

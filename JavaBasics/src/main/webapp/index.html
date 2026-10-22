@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Σύστημα Πανεπιστημίου - Είσοδος</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<img src="logo.png" class="logo" alt="Λογότυπο Πανεπιστημίου">
+<img src='logo2.png' class='logo2' alt='Λογότυπο 2'>
+<h2>Καλώς ήρθατε στο Σύστημα Διαχείρισης</h2>
+
+<form action="LoginServlet" method="POST">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Κωδικός (Password):</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <input type="hidden" name="action" value="login">
+    <input type="submit" value="Είσοδος">
+</form>
+</body>
+</html>

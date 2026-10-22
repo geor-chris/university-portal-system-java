@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Σύστημα Διαχείρισης Πανεπιστημίου - Είσοδος</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Καλώς ήρθατε στο Σύστημα Γραμματείας</h2>
+    
+    <form action="/LoginServlet" method="POST">
+        <label for="username">Όνομα Χρήστη (Username):</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        
+        <input type="hidden" name="action" value="login">
+        
+        <input type="submit" value="Είσοδος">
+    </form>
+</body>
+</html>

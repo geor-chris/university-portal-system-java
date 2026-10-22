@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Ανάθεση μαθήματος σε Καθηγητή</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<img src="logo.png" class="logo" alt="Λογότυπο 1">
+<img src="logo2.png" class="logo2" alt="Λογότυπο 2">
+<h2>Ανάθεση μαθήματος σε Καθηγητή</h2>
+
+<form action="AssignCourseServlet" method="POST">
+    <label for="professor">Όνομα Χρήστη Καθηγητή (Username):</label><br>
+    <input type="text" id="professor" name="professor" required><br><br>
+
+    <label for="course">Όνομα Μαθήματος:</label><br>
+    <input type="text" id="course" name="course" required><br><br>
+
+    <input type="hidden" name="action" value="assign_course">
+
+    <input type="submit" value="Ανάθεση">
+    <br><br>
+    <a href="LoginServlet" class="back-btn">Επιστροφή στο Μενού</a>
+</form>
+</body>
+</html>
